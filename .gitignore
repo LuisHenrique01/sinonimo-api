@@ -207,7 +207,7 @@ Thumbs.db
 # SageMath parsed files
 
 # Environments
-# .env
+.env
 
 # Spyder project settings
 
