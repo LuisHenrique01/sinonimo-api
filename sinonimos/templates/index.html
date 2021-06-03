@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Métodos</th>
+          <th scope="col">URLs</th>
+          <th scope="col">Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GET</td>
+          <td>api/sinonimo/</td>
+          <td>É necessário passar o argumento "q" com a(s) palavras desejadas</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% endblock content %}

@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from sinonimos.views import sinonimo
+from sinonimos.views import sinonimo_api, index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sinonimo/', sinonimo),
+    path('api/sinonimo/', sinonimo_api, name='sinonimo_api'),
+    path('', index)
 ]
